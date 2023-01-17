@@ -1,0 +1,48 @@
+@media (max-width:991px){
+
+.container{
+    width: 95%;
+}
+.about-content .count{
+    border: none !important;
+}
+.portfolio .nav-link
+{
+    margin-bottom: 15px;
+}
+.resume .col-md-6{
+    margin-bottom: 25px;
+}
+.testimonials .item{
+    margin-bottom: 25px;
+}
+}
+@media (max-width:768px){
+    header{
+        background-position: 50%;
+        background-repeat: no-repeat;
+        height: 79vh;
+        }
+        h1{
+            font-size: 35px;
+        }
+        h2{
+            font-size: 30px;
+        }
+    .resume{
+        text-align: center;
+    }
+    .contact .container p{
+        width: 100%;
+    }
+    .map .contact-info{
+        width: auto;
+    }
+    footer{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    footer:p:last-of-type , footer p.copy{
+        text-align: center !important;
+    }
+}
